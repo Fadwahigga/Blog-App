@@ -6,8 +6,11 @@
           <h1
             class="text-2xl sm:text-3xl md:text-xl lg:text-2xl xl:text-3xl font-bold mb-4 text-center capitalize"
           >
-            {{ blog.title.slice(0, -1)  }}
+            {{ blog.title.slice(0, -1) }}
           </h1>
+          <div class="flex justify-center mb-4">
+            <img :src="blog.photo_url" alt="" class="max-w-full h-auto" />
+          </div>
           <p
             class="text-gray-600 text-2xl sm:text-l md:text-xl lg:text-lg xl:text-xl"
           >

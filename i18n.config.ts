@@ -11,6 +11,8 @@ export default defineI18nConfig(() => ({
       Description: 'Description',
       Category: 'Category',
       Content: 'Content',
+      Photo: 'Photo',
+      FileSelected: 'Chose',
     },
     ar: {
       Home: 'الصفحة الرئيسية',
@@ -21,6 +23,8 @@ export default defineI18nConfig(() => ({
       Description: 'الوصف',
       Category: 'القسم',
       Content: 'المحتوى',
+      Photo: 'صورة',
+      FileSelected: 'اختر صورة',
     },
   },
 }))

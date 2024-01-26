@@ -30,7 +30,7 @@
       </div>
     </div>
     <div
-      class="grid grid-cols-2 divide-x divide-x-gray-400 border border-white text-white rounded-md w-24 m-5"
+      class="grid grid-cols-2 divide-x divide-x-gray-400 border border-white text-white rounded-md lg:w-24 md:w-14 sm:5 m-5"
     >
       <button
         :class="`uppercase px-2 ${
