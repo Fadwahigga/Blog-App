@@ -13,6 +13,7 @@ export default defineI18nConfig(() => ({
       Content: 'Content',
       Photo: 'Photo',
       FileSelected: 'Chose',
+
     },
     ar: {
       Home: 'الصفحة الرئيسية',
